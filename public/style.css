@@ -133,3 +133,36 @@ hr {
     color: white;
     font-size: 25px;
 }
+
+.green-dot,
+.gray-dot,
+.red-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.user-log {
+    position: relative;
+}
+
+.green-dot {
+    background-color: green;
+    position: absolute;
+    left: 13.4rem;
+    bottom: 2rem;
+}
+
+.red-dot {
+    background-color: red;
+    position: absolute;
+    right: 9.3rem;
+    bottom: 2rem;
+}
+
+.gray-dot {
+    background-color: gray;
+    bottom: 2rem;
+    position: absolute;
+    right: 32.7rem
+}
