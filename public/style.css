@@ -254,6 +254,7 @@ div.dot {
 .icons {
     border: 1px solid black;
     padding: 1rem;
+    border-radius: 1rem;
     font-size: 30px;
     background-color: white;
     display: flex;
@@ -363,4 +364,66 @@ div.dot {
 
 .product-information * {
     margin-bottom: 20px;
+}
+
+.cart-option {
+    width: 200px;
+    text-align: left;
+}
+
+.cart-opt-img>img {
+    width: 90%;
+    background-size: contain;
+}
+
+.cart-opt-img {
+    position: relative;
+}
+
+.cart-opt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart-tag {
+    display: inline-block;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+
+.rectangular-image {
+    border: 1px solid white;
+    height: 500px;
+    width: 500px;
+    padding: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+}
+
+.circular-image {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    padding: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+}
+
+.nav-content {
+    border: 1px solid white;
+    margin-left: 2rem;
+    display: inline;
+    align-self: center;
+    font-weight: bolder;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.2);
+}
+
+.nav-content:hover {
+    background-color: teal;
+    color: white;
+    box-shadow: 9px 8px 2rem 0px rgb(255 255 255 / 20%);
+    cursor: pointer;
 }
