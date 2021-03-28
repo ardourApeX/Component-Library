@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
-:root {
+ :root {
     --primarry-blue: #082338;
     --primary-green: #6DD47E;
 }
 
 *,
-::after,
-::before {
+ ::after,
+ ::before {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(255, 228, 155);
+    background-color: rgb(179, 223, 205);
 }
 
 .header {
@@ -44,12 +44,14 @@ body {
     color: white;
     padding: 1rem;
     top: 7%;
+    font-weight: bold;
     width: 14%;
     height: 80.5vh;
     border-radius: 0 1.5rem 1.5rem 0;
     background-color: var(--primarry-blue);
     text-align: center;
     box-shadow: 7px 5px 13px 1px black;
+    min-width: 100px;
 }
 
 hr {
@@ -137,6 +139,10 @@ hr {
     margin-bottom: 10px;
     color: white;
     font-size: 25px;
+}
+
+.sub-heading {
+    margin-bottom: 1rem;
 }
 
 
@@ -260,4 +266,70 @@ div.dot {
 
 .buttons img {
     margin-right: 10px;
+}
+
+.product-img {
+    grid-area: "product-img";
+    background: url("../images/item1.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    width: 100%;
+    margin-top: 1rem;
+    background-size: contain;
+}
+
+.product-regulator {
+    margin-top: 1rem;
+    margin-left: 20px;
+    text-align: center;
+    grid-area: "regulator";
+    width: 70%
+}
+
+.product-desc {
+    grid-area: "desc";
+    margin-top: 1rem;
+}
+
+.product-card {
+    display: grid;
+    background: white;
+    grid-template-columns: 190px 1fr;
+    grid-template-rows: 10rem 3rem;
+    grid-template-areas: "product-img desc" "regulator desc";
+    grid-gap: 10px;
+    margin: auto;
+    border: 1px solid black;
+    max-width: 80%;
+    padding: 1rem 0;
+    border-radius: 20px;
+}
+
+.product-regulator span {
+    border: 1px solid black;
+    margin: 0 4px;
+    padding: 3px 17px;
+    font-weight: bold;
+}
+
+.product-regulator button {
+    padding: 0 10px;
+    border-radius: 50%;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: white;
+    font-weight: bold;
+    width: 30px;
+}
+
+.product-information h2,
+.product-information h3 {
+    display: inline;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.product-information * {
+    margin-bottom: 20px;
 }
