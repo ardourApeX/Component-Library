@@ -143,6 +143,7 @@ hr {
 
 .sub-heading {
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -248,6 +249,36 @@ div.dot {
     text-align: center;
     font-size: 0.7rem;
     padding-top: 0.4rem;
+}
+
+.icons {
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 4px 9px 1px rgb(0 0 0);
+    position: relative;
+}
+
+.icon-tag {
+    position: relative;
+    z-index: 1;
+}
+
+.number-on-icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 0px;
+    z-index: 2;
+    color: white;
+    border: 1px solid white;
+    overflow: hidden;
+    right: -13px;
+    top: -6px;
 }
 
 .inline-button {
