@@ -427,3 +427,24 @@ div.dot {
     box-shadow: 9px 8px 2rem 0px rgb(255 255 255 / 20%);
     cursor: pointer;
 }
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    width: 70%;
+    padding: 1rem 1rem;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+}
+
+.list-items {
+    border: 1px solid black;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem;
+    color: black;
+    font-weight: bold;
+}
