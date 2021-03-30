@@ -23,11 +23,11 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
     font-size: 27px;
     border-radius: 0 0 1rem 1rem;
     background-color: var(--primarry-blue);
     color: white;
-    height: 12vh;
 }
 
 .content {
@@ -419,7 +419,6 @@ div.dot {
     font-weight: bolder;
     padding: 0.6rem;
     border-radius: 1rem;
-    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.2);
 }
 
 .nav-content:hover {
@@ -451,31 +450,28 @@ div.dot {
 }
 
 form {
-    font-family: 'Lexend', sans-serif;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
-    max-width: 80%;
-    margin: auto;
     padding: 1rem;
-    justify-content: space-between;
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
     border-radius: 1rem;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
 }
 
-label {
+form label {
     font-size: 20px;
-    font-weight: 15px;
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 input[type=text] {
-    width: 100%;
-    font-size: 14px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
     border: 3px solid #ccc;
-    -webkit-transition: 0.1s;
     transition: 0.1s;
     outline: none;
 }
@@ -488,7 +484,7 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: ce;
+    align-items: center;
     padding: 1rem;
 }
 
