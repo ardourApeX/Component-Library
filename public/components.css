@@ -264,6 +264,7 @@ div.dot {
     padding: 5px;
     border-radius: 2rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .buttons {
@@ -463,7 +464,7 @@ div.dot {
     font-weight: bold;
 }
 
-form {
+.form {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -474,23 +475,23 @@ form {
     border-radius: 1rem;
 }
 
-form label {
+.form .label {
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-form input {
+.user_input {
     margin-bottom: 10px;
     padding: 10px;
 }
 
-input[type=text] {
+.user_input[type=text] {
     border: 3px solid #ccc;
     transition: 0.1s;
     outline: none;
 }
 
-input[type=text]:focus {
+.user_input[type=text]:focus {
     border: 3px solid teal;
 }
 
