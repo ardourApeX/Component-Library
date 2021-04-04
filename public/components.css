@@ -127,6 +127,10 @@ hr {
     margin-bottom: 1rem;
 }
 
+.secondary-heading {
+    padding-left: 1rem;
+}
+
 .alerts {
     display: flex;
     flex-direction: column;
