@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="components.css">
+    <script src="../src/app.js"></script>
+    <title>Component Library</title>
+</head>
+
+<body>
+
+    <div class="layout">
+        <div class="header">
+            <h1>Component Library</h1>
+        </div>
+        <div class="side-bar">
+            <ul>
+                <li> <a href="#avatar">Avatar </a></li>
+                <li> <a href="#alerts">Alerts </a></li>
+                <li> <a href="#badges">Badges </a></li>
+                <li> <a href="#buttons">Buttons </a></li>
+                <li> <a href="#cards">Cards </a></li>
+                <li> <a href="#grids">Grid Layout </a></li>
+                <li> <a href="#images">Images </a></li>
+                <li> <a href="#input">Input </a></li>
+                <li> <a href="#list">List </a></li>
+                <li> <a href=#navbar>Navbar </a></li>
+                <li> <a href="#text-utilities">Text Utilities </a></li>
+            </ul>
+        </div>
+        <div class="content">
+
+            <!-- How to use? -->
+            <div>
+                <h1 class="card-heading" style="text-align: center;">How to use?</h1>
+                <div style="display: flex; justify-content: space-between; margin-bottom: -8rem;">
+                    <div>
+                        <h2 class="secondary-heading">Import CSS File</h2>
+                        <embed src="https://carbon.now.sh/embed/Jsd4RzAr6HiJBaZEqaab" type="">
+                    </div>
+                    <div>
+                        <h2 class="secondary-heading">Import JS File</h2>
+                        <embed src="https://carbon.now.sh/embed/TLbUqA3ZUMWgA5IHHaAo" type="">
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- Avatar -->
+            <div id="avatar" class=" avatar ">
+                <h1 class="card-heading ">Avatars <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button></h1>
+                <div class="avatars teal-card ">
+                    <img height="70px " src="../images/female.png " alt="Female ">
+                    <img height="90px " src="../images/male.png " alt="Male ">
+                    <img height="110px " src="../images/female.png " alt="Female ">
+                    <img height="130px " src="../images/male.png " alt="Male ">
+                    <img height="150px " src="../images/female.png " alt="Female ">
+                    <img height="170px " src="../images/male.png " alt="Male ">
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- Alerts -->
+            <div id="alerts">
+                <h1 class="card-heading ">Alerts <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h1>
+                <div class="offwhite-card alerts ">
+                    <h3 style=" background-color: rgb(204, 51, 0); " class="alert ">Error</h3>
+                    <h3 style="background-color: rgb(51, 153, 0) " class="alert ">Warning</h3>
+                    <h3 style="background-color: rgba(2, 42, 105, 0.801); " class="alert ">Success</h3>
+                    <h3 style="background-color:rgb(216, 216, 7) " class="alert ">Information</h3>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- Badges -->
+            <div id="badges">
+                <h1 class="card-heading ">Badges </h1>
+                <div class="teal-card ">
+                    <h2 class="sub-heading ">Badges on Avatar <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h2>
+                    <div class="badges-container ">
+                        <div class="green-image image ">
+                            <div style="color:green; font-weight:bold " class="dot ">Acitve</div>
+                            <div class="green-dot "></div>
+                        </div>
+                        <div class="gray-image image ">
+                            <div style="color:rgb(65, 62, 62); font-weight: bold; " class="dot ">Last seen a year ago</div>
+                            <div class="gray-dot "></div>
+                        </div>
+                        <div class="red-image image ">
+                            <div style="color:red;font-weight:bold " class=" dot ">Active 3h ago</div>
+                            <div class="red-dot "></div>
+                        </div>
+                    </div>
+                    <h2 class="sub-heading ">Badges on Icon <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h2>
+                    <div class="icons ">
+                        <i style="color:rgba(200, 21, 21, 0.815) " class="fas fa-thumbs-down "></i>
+                        <i style="color:rgb(20, 59, 131) " class="fas fa-thumbs-up "></i>
+                        <div class="icon-tag ">
+                            <i style="color:rgb(207, 85, 105) " class="fas fa-shopping-bag "></i><button style="background-color:rgb(8, 164, 179); " class="number-on-icon ">6</button>
+                        </div>
+                        <div class="icon-tag ">
+                            <i style="color:rgb(107, 103, 103) " class="fas fa-shopping-cart "></i>
+                            <button style="background-color:rgb(3, 69, 122) " class="number-on-icon ">4</button>
+                        </div>
+                        <div class="icon-tag ">
+                            <i style="color:rgb(240, 186, 10) " class="fas fa-bell "></i>
+                            <button style="background-color:rgb(255, 123, 0); color:white " class="number-on-icon ">2</button>
+                        </div>
+                        <i style="color:red " class="fas fa-heart "></i>
+                        <i style="color:green " class="fas fa-info "></i>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Buttons -->
+            <div id="buttons">
+                <h1 class="card-heading ">Buttons <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h1>
+                <div class="offwhite-card ">
+                    <div class="buttons ">
+                        <button class="inline-button ">
+                            <img height="30px " src="../images/add-to-cart.png " alt=" ">
+                                Add to Cart
+                        </button>
+                        <button class="inline-button ">
+                            <img height="30px " src="../images/remove-from-cart.png " alt=" ">
+                                Remove from Cart
+                        </button>
+                        <button class="inline-button ">
+                            <img height="30px " src="../images/purchase.png " alt=" ">
+                                Purchase
+                        </button>
+                        <button class="inline-button ">
+                            <img height="40px " src="../images/add-to-wishlist.png " alt=" ">
+                                Add to wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Gird Layout -->
+            <div id="grids">
+                <h1 class="card-heading">Grid Layout <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h1>
+                <div class="teal-card">
+                    <div class="grid-container">
+                        <div class="item1">Header</div>
+                        <div class="item2">Menu</div>
+                        <div class="item3">Main</div>
+                        <div class="item4">Right</div>
+                        <div class="item5">Footer</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Cards -->
+            <div id="cards">
+                <h1 class="card-heading ">Cards</h1>
+                <div class="offwhite-card ">
+                    <h2 class="sub-heading ">Checkout Card <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button></h2>
+                    <div class="product-card ">
+                        <div class="product-img "></div>
+                        <div class="product-desc ">
+                            <div class="product-information ">
+                                <h2 style="font-weight: lighter ">LI-NING XP-90-IV Black, White, Silver</h2>
+                                <span>Delivery in 3-4 days | </span>
+                                <span style="color:green;font-weight:bold ">Free</span>
+                                <s>₹40</s>
+                                <p>Pack of:1, 86 g</p>
+                                <div style="display: flex; ">
+                                    <p style="margin-right:10px ">Seller: RetailNet </p>
+                                    <img height="20px " src=" ../images/fassured.png " alt=" ">
+                                </div>
+                                <h3>₹350</h3> <span> <s>₹990</s></span>
+                                <strong style="color:green ">64% Off 1 offer available </strong>
+                                <br>
+                                <button style="display:block;padding : 3px; font-size :20px;margin-top:1.4rem; ">REMOVE</button>
+                            </div>
+                        </div>
+                        <div class=" product-regulator ">
+                            <button>-</button>
+                            <span>2</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="product-card ">
+                        <div class="product-img "></div>
+                        <div class="product-desc ">
+                            <div class="product-information ">
+                                <h2 style="font-weight: lighter ">LI-NING XP-90-IV Black, White, Silver</h2>
+                                <span>Delivery in 3-4 days | </span>
+                                <span style="color:green;font-weight:bold ">Free</span>
+                                <s>₹40</s>
+                                <p>Pack of:1, 86 g</p>
+                                <div style="display: flex; ">
+                                    <p style="margin-right:10px ">Seller: RetailNet </p>
+                                    <img height="20px " src=" ../images/fassured.png " alt=" ">
+                                </div>
+                                <h3>₹350</h3> <span> <s>₹990</s></span>
+                                <strong style="color:green ">64% Off 1 offer available </strong>
+                                <br>
+                                <button style="display:block; padding:3px; font-size: 20px;margin-top:1.4rem; ">REMOVE</button>
+                            </div>
+                        </div>
+                        <div class=" product-regulator ">
+                            <button>-</button>
+                            <span>2</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <h2 class="sub-heading ">Product Card <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button></h2>
+                    <div style="margin-top: 10px; " class="cart-opt ">
+                        <div style=" padding:20px;border:1px solid black;background-color: #fff; " class="cart-option ">
+                            <div class="cart-opt-img ">
+                                <div class="cart-tag ">
+                                    <span style="background-color:yellow; ">New Arrival</span>
+                                </div>
+                                <img width="50px " height="170px " src="https://images-na.ssl-images-amazon.com/images/I/815O9y5VD%2BL._SL1500_.jpg " alt="bags ">
+                            </div>
+                            <div class="cart-opt-info ">
+                                <h2>Trunkit <img width="70px " height="20px " src="../images/fassured.png " alt=" "></h2>
+                                <h3 style="font-weight: 200; font-size: 1rem; ">high Quality</h3>
+                                <h3>₹350 <s>₹990</s> <span style="color: green; ">63%off</span></h3>
+                            </div>
+                        </div>
+                        <div style=" padding:20px;border:1px solid black;background-color: #fff; " class="cart-option ">
+                            <div class="cart-opt-img ">
+                                <div class="cart-tag ">
+                                    <span style="background-color: orange;margin-right: 90px; ">Trending</span>
+                                </div>
+                                <img width="50px " height="170px " src="https://images-na.ssl-images-amazon.com/images/I/815O9y5VD%2BL._SL1500_.jpg " alt="bags ">
+                            </div>
+                            <div class="cart-opt-info ">
+                                <h2>Trunkit <img width="70px " height="20px " src="../images/fassured.png " alt=" "></h2>
+                                <h3 style="font-weight: 200; font-size: 1rem; ">high Quality</h3>
+                                <h3>₹350 <s>₹990</s> <span style="color: green; ">63%off</span></h3>
+                            </div>
+                        </div>
+                        <div style=" padding:20px;border:1px solid black;background-color: #fff; " class="cart-option ">
+                            <div class="cart-opt-img ">
+                                <div class="cart-tag ">
+                                    <span style="background-color: rgb(0, 153, 255); padding-bottom: px; ">Best Seller</span>
+                                </div>
+                                <img width="50px " height="170px " src="https://images-na.ssl-images-amazon.com/images/I/815O9y5VD%2BL._SL1500_.jpg " alt="bags ">
+                            </div>
+                            <div class="cart-opt-info ">
+                                <h2>Trunkit <img width="70px " height="20px " src="../images/fassured.png " alt=" "></h2>
+                                <h3 style="font-weight: 200; font-size: 1rem; ">high Quality</h3>
+                                <h3>₹350 <s>₹990</s> <span style="color: green; ">63%off</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Images -->
+            <div id="images">
+                <h1 class="card-heading "> Images <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h1>
+                <div class="teal-card ">
+                    <div style="display: flex; justify-content: space-around; ">
+                        <img class="rectangular-image " height="500px " src=" ../images/responsive.jpg " alt="rectangular image ">
+                        <img class="circular-image " src="../images/responsive.jpg " height="500px " alt=" ">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Input -->
+            <div id="input">
+                <h1 class="card-heading ">Input <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h1>
+                <div class="offwhite-card ">
+                    <form class="form">
+                        <label class="label">First Name</label>
+                        <input class="user_input" type="text" name="fname ">
+                        <label class="label">Last Name</label>
+                        <input class="user_input" type="text" value=" ">
+                        <label class="label">College Name</label>
+                        <input class="user_input" type="text" value=" ">
+                        <label class="label">Address</label>
+                        <input class="user_input" type="text" value=" ">
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- List -->
+            <div id="list">
+                <h1 class="card-heading "> List <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button> </h1>
+                <div class=" teal-card ">
+                    <div class="lists ">
+                        <p style="background:#E8D0A9; border-radius: 1rem 1rem 0rem 0rem; " class="list-items ">Item 1</p>
+                        <p style="background:#B7AFA3; " class="list-items ">Item 2</p>
+                        <p style="background:#C1DAD6; " class="list-items ">Item 3</p>
+                        <p style="background:#77b1b1; " class="list-items ">Item 4</p>
+                        <p style="background: #ACD1E9; " class="list-items ">Item 5</p>
+                        <p style="background:#6d929B; border-radius: 0rem 0rem 1rem 1rem; " class=" list-items ">Item 6</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- navbar -->
+            <div id="navbar">
+                <h1 class="card-heading ">Navbar <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button></h1>
+                <div class="offwhite-card ">
+                    <div style="display: flex; justify-content: space-between; padding: 0 1rem ">
+                        <h1>Brand Name</h1>
+                        <ul style="display:flex; justify-content: space-around; ">
+                            <li class="nav-content ">
+                                Home
+                            </li>
+                            <li class="nav-content ">
+                                Shop
+                            </li>
+                            <li class="nav-content ">
+                                Products
+                            </li>
+                            <li class="nav-content ">
+                                Food
+                            </li>
+                            <li class="nav-content ">
+                                About Us
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Text Utilities -->
+            <div id="text-utilities">
+                <h1 class="card-heading ">Text Utilities <button class="myBtn_multi code-btn"><i class="fas fa-code "></i></button></h1>
+                <div class="teal-card ">
+                    <div class="headings ">
+                        <h1>This is the biggest heading</h1>
+                        <h2>This is the second biggest heading</h2>
+                        <h3>This is the third biggest heading</h3>
+                        <h4>This is the fourth biggest heading</h4>
+                        <h5>This is the second last smallest heading</h5>
+                        <h6>This is the smallest heading</h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- code div -->
+            <div>
+
+                <!-- Avatar Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/uwHYwFn8rxK2vobEr1g5">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/BYGzg3AJf3KLxIDYvrnB">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alert Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/tIlGikQI3OLskTNb8Yz5">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/1sZKtWwciv2sAxNvO0Lv">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Badges on Avatar Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/17j0Q1rZcT98unF0Emdq">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/zXLypkvXyUnvyIhwhDxK">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Badges on Icon Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/Vlsh4gWHopaCKu0Pa5TS">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/eEmuYBsbjqgCnXkZSbRi">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buttons Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/CHEYGGm97oVveayOLTPl">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/p2SnJm7ZZtOaigdTOGj9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grid Layout Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/clWm9PJN5B0Cbq4085Hx">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/2BGNoxlfCMtYXMhnUa23">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Checkout Card Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/eA7CwKd7M7ChblPEhSHW">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/lCUQhDVzPMw5qUOFrSLq">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/3WVBkcyXshxyukQ3FISh">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/MRijthnMnEaHFhP1Uw9A">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Images Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/pOTjdPUTf9GYmMC4tsCu">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/PqnMN052XiplPeo9BFcr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/2Crt1WwS58rRSJctRZtF">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/NZtpXHRyf1wWbDyoEKlg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- List Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/FNsOQpOEYi462C26velA">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/9RWvs83U0uDyXY3YD7EG">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navbar Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/S3jkxEzngTmaGqnD1lzN">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/99Mz1wRMLQkMl0ODloKc">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Utilities Code -->
+                <div class="modal modal_multi ">
+                    <!-- Modal content -->
+                    <div class="modal-content ">
+                        <span class="close close_multi ">×</span>
+                        <div class="code ">
+                            <div>
+                                <h1>HTML</h1>
+                                <embed src="https://carbon.now.sh/embed/y2EhXVvYLI4zn1O85w6m">
+                            </div>
+                            <div>
+                                <h1>CSS</h1>
+                                <embed src="https://carbon.now.sh/embed/gsmf3rvfGdkXiBvwETzE">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+
+</html>
